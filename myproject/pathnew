@@ -1,0 +1,1 @@
+scp -r kevomakosh@web500.webfaction.com:/home/kevomakosh/webapps/dubiz/zpj.tar.gz /home/gateway/Downloads/
