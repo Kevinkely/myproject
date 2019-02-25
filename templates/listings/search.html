@@ -23,7 +23,7 @@
               </div>
 
               <div class="col-md-4 mb-3">
-                <label class="sr-only">State</label>
+                <label class="sr-only">Areacode</label>
                 <select name="state" class="form-control">
                   <option selected="true" disabled="disabled">Areacode(All)</option>
                   {% for key,value in state_choices.items %}
@@ -100,7 +100,7 @@
                 <img class="card-img-top" src="{{ listing.photo_main.url }}" alt="">
                 <div class="card-img-overlay">
                   <h2>
-                    <span class="badge badge-secondary text-white">${{ listing.price | intcomma }}</span>
+                    <span class="badge badge-secondary text-white">Kes{{ listing.price | intcomma }}</span>
                   </h2>
                 </div>
                 <div class="card-body">
