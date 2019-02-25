@@ -11,3 +11,4 @@ __ pycache __
 !**/migrations/__init__.py
 settings.py
 myvenv
+wsgi.py
