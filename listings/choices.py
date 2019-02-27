@@ -1,4 +1,8 @@
 bedroom_choices = {
+  'single_room':'single room',
+  'bedsitter':'bedsitter',
+  'offices':'office space',
+  'land':'land',
   '1':1,
   '2':2,
   '3':3,
@@ -26,6 +30,7 @@ price_choices = {
 }
 
 areacode_choices = {
+        'CBD':'CBD',
         'MG': 'Muthaiga',
         'GG': 'Gigiri',
         'LAVI': 'Lavington',

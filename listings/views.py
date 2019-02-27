@@ -41,15 +41,15 @@ def search(request):
     if city:
       queryset_list = queryset_list.filter(city__iexact=city)
 
-  # State
+  # Areacode
   if 'areacode' in request.GET:
     areacode = request.GET['areacode']
     if areacode:
       queryset_list = queryset_list.filter(state__iexact=areacode)
 
-  # Bedrooms
-  if 'bedrooms' in request.GET:
-    bedrooms = request.GET['bedrooms']
+  # Categories
+  if 'categories' in request.GET:
+    categories = request.GET['bedrooms']
     if bedrooms:
       queryset_list = queryset_list.filter(bedrooms__lte=bedrooms)
 
