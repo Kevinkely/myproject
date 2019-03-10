@@ -27,18 +27,4 @@ price_choices = {
   '4000000':'Above Kes.4M'
 }
 
-areacode_choices = {
-        'CBD':'CBD',
-        'MG': 'Muthaiga',
-        'GG': 'Gigiri',
-        'LAVI': 'Lavington',
-        'KILE': 'Kileleshwa',
-        'RG': 'Ridgeways',
-        'RND': 'Runda',
-        'KILI': 'Kilimani',
-        'HURL': 'Hurlingham',
-        'DC': 'Karen',
-        'DE': 'Kitisuru',
-        'FL': 'Riverside',
-
-}
+areacode_choices = {'#'}
