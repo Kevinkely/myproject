@@ -12,3 +12,4 @@ __ pycache __
 settings.py
 myvenv
 wsgi.py
+sent_emails/
