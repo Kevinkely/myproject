@@ -1,6 +1,5 @@
 Babel==2.7.0
 beautifulsoup4==4.6.0
-Brlapi==0.6.6
 certifi==2018.1.18
 chardet==3.0.4
 configobj==5.0.6
